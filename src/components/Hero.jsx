@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 
 function Hero() {
   return (
@@ -33,8 +33,7 @@ function Hero() {
 
         <div className="blob"></div>
 
-        <img src={profile} alt="Nuha" />
-
+        <img src={profile} alt="Nuha" className="profile-img" />
       </div>
 
     </section>
