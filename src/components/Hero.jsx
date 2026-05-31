@@ -19,8 +19,12 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button>Download Resume</button>
-          <button className="outline-btn">GitHub</button>
+          <a href="Nuha Riwaz_CV.pdf" download>
+            <button>Download Resume</button>
+          </a>
+          <a href="https://github.com/nuha-riwaz" target="_blank" rel="noopener noreferrer">
+            <button className="outline-btn">GitHub</button>
+          </a>
         </div>
 
       </div>
