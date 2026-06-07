@@ -1,4 +1,3 @@
-import profile from "../assets/profile.png";
 
 function Hero() {
   return (
@@ -33,7 +32,6 @@ function Hero() {
 
         <div className="blob"></div>
 
-        <img src={profile} alt="Nuha" className="profile-img" />
       </div>
 
     </section>
